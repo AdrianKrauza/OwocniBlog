@@ -1,0 +1,4 @@
+const Paragraph = styled.p`
+
+`;
+
