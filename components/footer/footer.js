@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import Image from "../image/image";
-import Gallery from "../gallery/gallery";
+// import Image from "../image/image";
+// import Gallery from "../gallery/gallery";
 
 const RightSection = styled.div`
 display: flex;
@@ -59,7 +59,7 @@ const Footer = ({ linkSection }) => {
         ))}
       </LeftSection>
       <div>
-        <Image layout="fixed" image={centerSection.image} />
+        {/* <Image layout="fixed" image={centerSection.image} /> */}
         <Copyright dangerouslySetInnerHTML={{ __html: centerSection.copyright }}/>
       </div>
       <RightSection>
